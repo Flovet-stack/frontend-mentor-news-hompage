@@ -231,6 +231,9 @@ p {
   display: none;
 }
 
+.header__menu-overlay {
+  display: none;
+}
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
   .page {
@@ -308,6 +311,7 @@ p {
   }
 
   .header__menu-overlay {
+    display: block;
     position: fixed;
     top: 0;
     right: -100vw;
